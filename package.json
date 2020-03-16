@@ -1,0 +1,19 @@
+{
+  "name": "simple-webpack-server",
+  "version": "1.0.0",
+  "description": "Simple Webpack boilerplate to get started.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meetsiraja/simple-webpack-server.git"
+  },
+  "author": "https://github.com/meetsiraja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meetsiraja/simple-webpack-server/issues"
+  },
+  "homepage": "https://github.com/meetsiraja/simple-webpack-server#readme"
+}
