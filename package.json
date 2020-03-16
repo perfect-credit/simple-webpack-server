@@ -4,7 +4,9 @@
   "description": "Simple Webpack boilerplate to get started.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,17 @@
   "bugs": {
     "url": "https://github.com/meetsiraja/simple-webpack-server/issues"
   },
-  "homepage": "https://github.com/meetsiraja/simple-webpack-server#readme"
+  "homepage": "https://github.com/meetsiraja/simple-webpack-server#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "hello-world-npm": "^1.1.1"
+  }
 }
